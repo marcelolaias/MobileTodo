@@ -1,12 +1,16 @@
 import React from 'react';
-import { SafeAreaView, Text } from 'react-native';
+import {SafeAreaView} from 'react-native';
 
-import { styles } from './App.styled';
+import {Header} from '../components';
+import HomePage from '../pages/home/Home.page';
+
+import {styles} from './App.styled';
 
 const App = () => {
   return (
-    <SafeAreaView>
-      <Text style={styles.text}>Hello World</Text>
+    <SafeAreaView style={styles.container}>
+      <Header title="Minhas Atividades" />
+        <HomePage />
     </SafeAreaView>
   );
 };

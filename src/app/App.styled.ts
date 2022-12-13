@@ -1,12 +1,18 @@
+// import styled from 'styled-components';
+
+// export const Wrapper = styled.div`
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+// `;
+
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
-    text: {
-        fontSize: 20,
-        marginVertical: 10,
-        marginHorizontal: 10,
-        fontFamily: 'Montserrat-Regular',
-        //fontFamily: 'monospace',
-        fontWeight: 'bold'
-    },
-});
+  container: {
+    flex: 1,
+    // flexDirection: 'row',
+    // alignItems: 'center',
+    // justifyContent: 'flex-start',
+  },
+})
